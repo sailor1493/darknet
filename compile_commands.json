@@ -1,0 +1,1199 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/data.o",
+            "src/data.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/data.c"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/image_opencv.o",
+            "src/image_opencv.cpp"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/image_opencv.cpp"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/col2im.o",
+            "src/col2im.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/col2im.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/route_layer.o",
+            "src/route_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/route_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/local_layer.o",
+            "src/local_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/local_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/crnn_layer.o",
+            "src/crnn_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/crnn_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/darknet.o",
+            "examples/darknet.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/darknet.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/im2col.o",
+            "src/im2col.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/im2col.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/super.o",
+            "examples/super.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/super.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/iseg_layer.o",
+            "src/iseg_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/iseg_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/reorg_layer.o",
+            "src/reorg_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/reorg_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/activation_layer.o",
+            "src/activation_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/activation_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/dropout_layer.o",
+            "src/dropout_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/dropout_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/normalization_layer.o",
+            "src/normalization_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/normalization_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/demo.o",
+            "src/demo.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/demo.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/connected_layer.o",
+            "src/connected_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/connected_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/gru_layer.o",
+            "src/gru_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/gru_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/lsd.o",
+            "examples/lsd.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/lsd.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/rnn.o",
+            "examples/rnn.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/rnn.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/region_layer.o",
+            "src/region_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/region_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/convolutional_layer.o",
+            "src/convolutional_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/convolutional_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/l2norm_layer.o",
+            "src/l2norm_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/l2norm_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/segmenter.o",
+            "examples/segmenter.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/segmenter.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/activations.o",
+            "src/activations.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/activations.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/cifar.o",
+            "examples/cifar.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/cifar.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/tree.o",
+            "src/tree.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/tree.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/softmax_layer.o",
+            "src/softmax_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/softmax_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/detection_layer.o",
+            "src/detection_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/detection_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/classifier.o",
+            "examples/classifier.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/classifier.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/option_list.o",
+            "src/option_list.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/option_list.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/coco.o",
+            "examples/coco.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/coco.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/utils.o",
+            "src/utils.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/utils.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/lstm_layer.o",
+            "src/lstm_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/lstm_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/maxpool_layer.o",
+            "src/maxpool_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/maxpool_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/matrix.o",
+            "src/matrix.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/matrix.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/avgpool_layer.o",
+            "src/avgpool_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/avgpool_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/tag.o",
+            "examples/tag.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/tag.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/image.o",
+            "src/image.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/image.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/instance-segmenter.o",
+            "examples/instance-segmenter.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/instance-segmenter.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/cost_layer.o",
+            "src/cost_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/cost_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/regressor.o",
+            "examples/regressor.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/regressor.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/list.o",
+            "src/list.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/list.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/box.o",
+            "src/box.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/box.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/shortcut_layer.o",
+            "src/shortcut_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/shortcut_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/gemm.o",
+            "src/gemm.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/gemm.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/art.o",
+            "examples/art.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/art.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/yolo.o",
+            "examples/yolo.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/yolo.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/batchnorm_layer.o",
+            "src/batchnorm_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/batchnorm_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/crop_layer.o",
+            "src/crop_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/crop_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/blas.o",
+            "src/blas.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/blas.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/parser.o",
+            "src/parser.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/parser.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/detector.o",
+            "examples/detector.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/detector.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/logistic_layer.o",
+            "src/logistic_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/logistic_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/captcha.o",
+            "examples/captcha.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/captcha.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/cuda.o",
+            "src/cuda.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/cuda.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/nightmare.o",
+            "examples/nightmare.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/nightmare.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/rnn_layer.o",
+            "src/rnn_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/rnn_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/upsample_layer.o",
+            "src/upsample_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/upsample_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/deconvolutional_layer.o",
+            "src/deconvolutional_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/deconvolutional_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/yolo_layer.o",
+            "src/yolo_layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/yolo_layer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/network.o",
+            "src/network.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/network.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/go.o",
+            "examples/go.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "examples/go.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Iinclude/",
+            "-Isrc/",
+            "-Wall",
+            "-Wno-unused-result",
+            "-Wno-unknown-pragmas",
+            "-Wfatal-errors",
+            "-fPIC",
+            "-Ofast",
+            "-o",
+            "obj/layer.o",
+            "src/layer.c"
+        ],
+        "directory": "/home/sailor1493/csap/darknet",
+        "file": "src/layer.c"
+    }
+]
