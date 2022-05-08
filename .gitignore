@@ -30,8 +30,11 @@ Icon?
 Thumbs.db
 *.swp
 
-# Ignore all root-directory invidisble files
+# Ignore all root-directory invisible files
 .*
+
+# Ignore bear generated files
+compile_commands.json
 
 # These will be stored in the repository.
 !.gitignore
