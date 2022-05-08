@@ -1,3 +1,5 @@
+# NOTE! Please use 'git ls-files -i --exclude-standard'
+
 *.o
 *.dSYM
 *.csv
@@ -26,5 +28,9 @@ Icon?
 Thumbs.db
 *.swp
 
-# ignore .vscode
-.vscode
+# Ignore all root-directory invidisble files
+.*
+
+# These will be stored in the repository.
+!.gitignore
+!.clangd
