@@ -1,5 +1,6 @@
 # NOTE! Please use 'git ls-files -i --exclude-standard'
 
+.*
 *.a
 *.so
 *.o
@@ -31,7 +32,6 @@ Thumbs.db
 *.swp
 
 # Ignore all root-directory invisible files
-.*
 
 # Ignore bear generated files
 compile_commands.json
